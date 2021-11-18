@@ -1,0 +1,120 @@
+.content-body {
+	background-color: #233E59;
+}
+.content-area {
+	width: 1080px;
+	margin: 0 auto;
+}
+.text-content {
+	font-family: Futura PT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+			/*header*/
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.header a {
+	text-decoration: none;
+}
+.logo {
+	display: flex;
+	flex-direction: row;
+}
+.logo__item {
+	color: #FFFFFF;
+	width: 21px;
+    height: 25px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo__item-icon {
+	position: relative;
+	width: 21px;
+    height: 25px;
+}
+.logo__item-icon-elem1 {
+	height: 11px;
+    position: absolute;
+    top: 2px;
+    right: 50%;
+    transform: translateX(50%);
+    border-right: 3px solid #2B8CFC;
+}
+.logo__item-icon-elem2 {
+	position: absolute;
+	top: 12px;
+	left: 50%;
+	transform: translateX(-50%) ;
+	width: 6px;
+	height: 6px;
+	border: 3px solid #2B8CFC;
+	border-radius: 50%;
+}
+.header-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 178px;
+	height: 44px;
+	border: 1px solid #E7B894;
+	border-radius: 200px;
+}
+.header-button__link {}
+.header__item {}
+.header__nav-menu {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+.header__list {
+	margin-right: 51px;
+}
+.header__list:last-child {
+	margin-right: 0;
+}
+.header__link {}
+.text-content_color {
+	color: #E7B894;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family: Futura PT;
+	src: url("./fonts/FuturaPT-Medium.woff") format("woff");
+}
