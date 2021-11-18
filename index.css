@@ -1,0 +1,104 @@
+.content-body {
+	background-color: #13273a;
+}
+.content-area {
+	width: 1206px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	padding: 0 63px;
+	box-sizing: border-box;
+}
+.text-content {
+	font-family: Futura PT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+.header_mod {
+	margin-top: 41px;
+}
+
+
+		/**/
+.circle {
+	position: absolute;
+	top: 153px;
+	left: -357px;
+	width: 724px;
+	height: 724px;
+	background-color: rgba(35, 62, 89, 0.8);
+	border-radius: 50%;
+	overflow: hidden;
+}
+.main-page {
+	display: flex;
+	flex-direction: row;
+}
+.main-page_mod {
+	margin-top: 136px;
+}
+.column {
+	display: flex;
+    flex-direction: column;
+}
+.column_mod {
+	align-items: flex-start;
+	z-index: 1;
+}
+.column_mod .widget {
+	margin-bottom: 110px;
+}
+.column_mod .widget:last-child {
+	margin-bottom: 0;
+}
+.column_mod2 .widget:nth-child(1) {
+	margin-bottom: 115px;
+}
+.column_mod2 .widget:nth-child(2) {
+	margin-bottom: 111px;
+}
+.title {
+	font-family: Futura PT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 46px;
+	line-height: 62px;
+	letter-spacing: 0.1em;
+	color: #BBA390;
+	margin: 0;
+}
+.title-text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 32px;
+	color: #8CAAC8;
+	margin: 0;
+}
+.title-text_margin {
+	padding-right: 130px;
+}
+.title-block_mod {
+	margin-top: 86px;
+	margin-bottom: 124px;
+}
+.widget {
+	display: inline-flex;
+    flex-direction: column;
+    margin: 0;
+}
+.widget__link {
+	font-family: Futura PT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 76px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+}
