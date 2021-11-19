@@ -90,6 +90,7 @@
 	display: inline-flex;
     flex-direction: column;
     margin: 0;
+    position: relative;
 }
 .widget__link {
 	font-family: Futura PT;
@@ -101,4 +102,12 @@
 	text-transform: uppercase;
 	color: #FFFFFF;
 	text-decoration: none;
+}
+.widget__link:after {
+	content: "\2192";
+	display: inline-flex;
+	width: 36px;
+	margin-left: 16px;
+	font-size: 30px;
+	color: #2B8CFC;
 }
