@@ -20,6 +20,9 @@
 .header_mod {
 	margin-top: 41px;
 }
+.main-page_mod {
+	margin-top: 136px;
+}
 
 
 		/**/
@@ -33,12 +36,9 @@
 	border-radius: 50%;
 	overflow: hidden;
 }
-.main-page {
+.main-content-part {
 	display: flex;
 	flex-direction: row;
-}
-.main-page_mod {
-	margin-top: 136px;
 }
 .column {
 	display: flex;
@@ -78,9 +78,11 @@
 	line-height: 32px;
 	color: #8CAAC8;
 	margin: 0;
+	opacity: 0.6;
 }
 .title-text_margin {
-	padding-right: 130px;
+	padding-right: 86px;
+	margin-top: 16px;
 }
 .title-block_mod {
 	margin-top: 86px;
@@ -110,4 +112,115 @@
 	margin-left: 16px;
 	font-size: 30px;
 	color: #2B8CFC;
+}
+		/**/
+
+.for-dealers {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.for-dealers__title {
+	text-align: center;
+}
+.for-dealers__text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	color: #5B82A9;
+	opacity: 0.9;
+}
+.for-dealers__container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.for-dealers__container_margin {
+	margin-top: 64px;
+	margin-bottom: 91px;
+}
+.conditon-for-dealers {
+	width: 251px;
+	height: 182px;
+	display: flex;
+	flex-direction: column;
+}
+.condition-for-dealers__icon_mod {
+	background-repeat: no-repeat;
+	height: 100%;
+	background-position: center top;
+}
+.condition-for-dealers__icon-player {
+	background-image: url("./img/icons/player.svg");
+}
+.condition-for-dealers__icon-maneger {
+	background-image: url("./img/icons/maneger.svg");
+}
+.condition-for-dealers__icon-content {
+	background-image: url("./img/icons/content.svg");
+}
+.condition-for-dealers__icon-catalog {
+	background-image: url("./img/icons/catalog.svg");
+}
+.condition-for-dealers__text {
+	text-decoration: none;
+	text-align: center;
+}
+.condition-for-dealers__text_mod {
+	padding-bottom: 32px;
+}
+.condition-for-dealers__text_padding {
+	padding: 0 20px;
+}
+.form-for-dealers {}
+.form-for-dealers__input {
+	width: 295px;
+	height: 57.05px;
+	background-color: transparent;
+	border: 1px solid #8CAAC8;
+	opacity: 0.6;
+	padding: 0;
+}
+.form-for-dealers__input_mod {
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 30px;
+	color: #5C82A8;
+}
+.form-for-dealers__buttom {
+	width: 230px;
+	height: 59.05px;
+	background-color: #2B8CFC;
+	padding: 0;
+}
+.form-for-dealers__buttom_mod {
+	font-family: Roboto;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+	margin-left: 32px;
+}
+.ff {
+
+}
+
+
+@font-face	{
+	font-family: Roboto;
+	src: url("./fonts/Roboto-Regular.woff") format("woff");
+}
+@font-face	{
+	font-family: Roboto-Bold;
+	src: url("./fonts/Roboto-Bold.woff") format("woff");
+}
+@font-face	{
+	font-family: Roboto-BoldItalic;
+	src: url("./fonts/Roboto-BoldItalic.woff") format("woff");
 }
