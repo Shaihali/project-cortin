@@ -120,6 +120,9 @@
 	flex-direction: column;
 	align-items: center;
 }
+.for-dealers_margin {
+	margin-top: 130px;
+}
 .for-dealers__title {
 	text-align: center;
 }
@@ -207,9 +210,86 @@
 	color: #FFFFFF;
 	margin-left: 32px;
 }
-.ff {
+		/**/
 
+
+.for-studio-design_margin {
+	margin-top: 220px;
 }
+.for-sudio-design__title {
+	text-align: center;
+}
+.for-studio-design__block_margin {
+	margin-top: 70px;
+}
+.for-studio-design__block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.design-card {
+	position: relative;
+	width: 347px;
+	height: 183.54px;
+	background-color: #051627;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+}
+.design-card__text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #8CAAC8;
+	opacity: 0.8;
+	margin: 0;
+	padding: 40px 0 0 34px;
+}
+.design-card__img {
+	background-repeat: no-repeat;
+	background-position: 60% 74%;
+	width: 100%;
+}
+.design-card__img_medallion {
+	background-image: url("./img/icons/design-cards-icons/medallion.svg");
+}
+.design-card__img_crown {
+	background-image: url("./img/icons/design-cards-icons/crown.svg");
+}
+.design-card__img_catalog {
+	background-image: url("./img/icons/design-cards-icons/catalog.svg");
+}
+.design-card__circle {
+	position: absolute;
+    top: 50%;
+    transform: translate(100%, 0px);
+    width: 225px;
+    height: 225px;
+    background-color: rgba(35, 62, 89, 0.3);
+    border-radius: 50%;
+}
+.for-studio-design__link {
+	display: flex;
+	justify-content: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+	opacity: 0.8;
+}
+.for-studio-design__link_mod {
+	border-bottom: 1px solid #7E8895;
+	margin-top: 34px;
+}
+
+
 
 
 @font-face	{
