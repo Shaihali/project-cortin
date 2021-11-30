@@ -179,7 +179,6 @@
 .condition-for-dealers__text_padding {
 	padding: 0 20px;
 }
-.form-for-dealers {}
 .form-for-dealers__input {
 	width: 295px;
 	height: 57.05px;
@@ -187,6 +186,7 @@
 	border: 1px solid #8CAAC8;
 	opacity: 0.6;
 	padding: 0;
+	outline: none;
 }
 .form-for-dealers__input_mod {
 	font-family: Roboto;
@@ -213,8 +213,19 @@
 		/**/
 
 
+.background-img {
+	position: absolute;
+	background-image: url("./img/background/design-section.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-width: 1206px;
+	min-height: 796px;
+	left: 0;
+	bottom: -55px;
+}
 .for-studio-design_margin {
 	margin-top: 220px;
+	margin-bottom: 224px;
 }
 .for-sudio-design__title {
 	text-align: center;
@@ -226,7 +237,6 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	
 }
 .design-card {
 	position: relative;
@@ -273,8 +283,10 @@
     border-radius: 50%;
 }
 .for-studio-design__link {
+	position: relative;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 300;
@@ -284,9 +296,28 @@
 	text-decoration: none;
 	opacity: 0.8;
 }
+.for-studio-design__link:after {
+	content: "";
+	border-top: 2px solid #2B8CFC;
+	width: 62px;
+	margin-left: 24px;
+}
+.for-studio-design__link:before {
+	content: "";
+    display: block;
+    border: solid #2B8CFC;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 11px;
+    right: 366px;
+    padding: 4px;
+}
 .for-studio-design__link_mod {
-	border-bottom: 1px solid #7E8895;
 	margin-top: 34px;
+}
+.for-studio-design__link-underline {
+	border-bottom: 1px solid #7E8895;
 }
 
 
