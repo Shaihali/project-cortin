@@ -221,7 +221,7 @@
 	min-width: 1206px;
 	min-height: 796px;
 	left: 0;
-	bottom: -55px;
+	bottom: 98px;
 }
 .for-studio-design_margin {
 	margin-top: 220px;
@@ -319,7 +319,98 @@
 .for-studio-design__link-underline {
 	border-bottom: 1px solid #7E8895;
 }
+		/**/
 
+.for-find-shop {
+	display: flex;
+	flex-direction: row;
+}
+.for-find-shop__item-icons-column {
+	display: flex;
+	flex-direction: row;
+}
+.shop-icon-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 230px;
+	height: 230px;
+	background: #122E4A;
+	box-shadow: 12px 22px 42px rgba(4, 20, 37, 0.25);
+	border-radius: 0px 30px;
+}
+.shop-icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.shop-name {
+	position: relative;
+	width: 150px;
+	height: 40px;
+}
+.shop-icon__title {
+	font-family: Current;
+	color: #FF7A44;
+	font-size: 42px;
+	position: absolute;
+	top: 3px;
+	left: -10px;
+}
+.shop-icon__title-italic {
+	font-family: Current;
+	color: #FF7A44;
+	font-size: 42px;
+	font-style: italic;
+	position: absolute;
+	top: 3px;
+	left: 33px;
+}
+.shop-icon__title-italic:after {
+	content: "";
+    display: block;
+    position: absolute;
+    top: -3.2px;
+    left: 63px;
+    height: 41px;
+    border-left: 10px solid #FF7A44;
+    transform: skew(166deg);
+}
+.block-E {
+	position: absolute;
+	top: 8.1px;
+	left: 108px;
+}
+.block-E_mod {
+	position: absolute;
+	top: 8.1px;
+	left: 134px;
+}
+.block-E__item {
+	width: 20px;
+    height: 7.5px;
+    background-color: #FF7A44;
+    transform: skew(167deg);
+}
+.block-E__item_margin1 {
+	margin: 0 0 0 8px;
+}
+.block-E__item_margin {
+	margin: 5px 0 5px 4px;
+}
+.shop-icon__text {
+	padding: 0 30px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #6485A7;
+}
 
 
 
@@ -334,4 +425,8 @@
 @font-face	{
 	font-family: Roboto-BoldItalic;
 	src: url("./fonts/Roboto-BoldItalic.woff") format("woff");
+}
+@font-face	{
+	font-family: Current;
+	src: url("./fonts/Current-Regular.woff") format("woff");
 }
