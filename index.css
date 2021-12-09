@@ -196,7 +196,7 @@
 	line-height: 30px;
 	color: #5C82A8;
 }
-.form-for-dealers__buttom {
+.form-buttom {
 	width: 230px;
 	height: 59.05px;
 	background-color: #2B8CFC;
@@ -221,7 +221,7 @@
 	min-width: 1206px;
 	min-height: 796px;
 	left: 0;
-	bottom: 98px;
+	bottom: 264px;
 }
 .for-studio-design_margin {
 	margin-top: 220px;
@@ -324,10 +324,13 @@
 .for-find-shop {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-evenly;
 }
 .for-find-shop__item-icons-column {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .shop-icon-block {
 	display: flex;
@@ -338,6 +341,12 @@
 	background: #122E4A;
 	box-shadow: 12px 22px 42px rgba(4, 20, 37, 0.25);
 	border-radius: 0px 30px;
+}
+.shop-icon-block_mod {
+	width: 159px;
+	height: 159px;
+	align-self: flex-end;
+	margin-left: 13px; 
 }
 .shop-icon {
 	display: flex;
@@ -350,18 +359,17 @@
 	width: 150px;
 	height: 40px;
 }
-.shop-icon__title {
+.font-shop {
 	font-family: Current;
 	color: #FF7A44;
 	font-size: 42px;
+}
+.shop-icon__title {
 	position: absolute;
 	top: 3px;
 	left: -10px;
 }
 .shop-icon__title-italic {
-	font-family: Current;
-	color: #FF7A44;
-	font-size: 42px;
 	font-style: italic;
 	position: absolute;
 	top: 3px;
@@ -411,8 +419,168 @@
     text-align: center;
     color: #6485A7;
 }
+.for-find-shop__item-find {
+	max-width: 386px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.for-find-shop__title {
+	font-family: Futura PT;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: 0.06em;
+	color: #FFFFFF;
+	margin: 0;
+}
+.for-find-shop__text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+	color: #8CAAC8;
+	margin: 10px 0 48px 0;
+}
+.for-find-shop__buttom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+	width: 215px;
+}
 
+		/* модификация имени магазина */ 
+.shop-icon-block-inactive {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 72px;
+	height: 72px;
+	background: #122E4A;
+	box-shadow: 12px 22px 42px rgba(4, 20, 37, 0.25);
+	margin-right: 13px;
+	margin-top: 14px;  
+}
+.shop-icon-block-inactive:nth-child(3, 4) {
+	margin-right: 0;
+}
+.shop-icon-block-inactive .font-shop {
+	color: #314961;
+	font-size: 9px;
+}
+.shop-icon-block-inactive .shop-icon__title {
+	left: 0;
+}
+.shop-icon-block-inactive .block-E__item {
+	background-color: #314961;
+	width: 5px;
+    height: 1.4px;
+}
+.shop-icon-block-inactive .shop-icon__title-italic {
+	left: 9px;
+}
+.shop-icon-block-inactive .shop-icon__title-italic:after {
+	border-left: 2px solid #314961;
+	left: 14px;
+	height: 9px;
+	top: -1px;
+}
+.shop-icon-block-inactive .shop-name {
+	width: 42px;
+	height: 11px;
+}
+.shop-icon-block-inactive .block-E {
+	top: 4px;
+	left: 26px;
+}
+.shop-icon-block-inactive .block-E_mod {
+	left: 33px;
+}
+.shop-icon-block-inactive .block-E__item_margin {
+    margin: 1.3px 0 1.3px 0.6px;
+}
+.shop-icon-block-inactive .block-E__item_margin1 {
+    margin: 0 0 0 1.2px;
+}
+			/**/
 
+.for-find-shop__item-icons-column_mod {
+	width: 262px;
+}	
+.for-find-shop__item-icons	{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}	
+.shop-icon-block__elem {
+	text-align: center;
+	position: relative;
+}
+.shop-icon-block__letter {
+	font-family: HWTKonop8Line;
+	color: #FE8A90;
+	font-size: 20px;
+}
+.shop-icon-block__text {
+	margin: 0;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 14px;
+	text-align: center;
+	color: #6485A7;
+	padding: 10px 20px 0 20px;
+}
+.shop-icon-block__letter-E-style {
+	position: absolute;
+	left: 49px;
+	width: 20px;
+}
+.shop-icon-block__letter_margin {
+	margin-left: 20px;
+}
+.shop-icon-block__letter-E-style_mod1 {
+	top: 0px;
+	transform: rotate(180deg);
+	border-top: 4px solid #FE8A90;;
+
+}
+.shop-icon-block__letter-E-style_mod1:after {
+	content: "";
+	position: absolute;
+	top: -8px;
+	left: 8px;
+    border-right: 4px solid transparent;
+    border-bottom: 20px solid #FE8A90;
+    transform: rotate(90deg);
+}
+.shop-icon-block__letter-E-style_mod2 {
+	top: 8px;
+	border-top: 5px solid #FE8A90;
+}
+.shop-icon-block__letter-E-style_mod3 {
+	top: 17px;
+	border-top: 4px solid #FE8A90;
+}
+.shop-icon-block__letter-E-style_mod3:after {
+	content: "";
+	position: absolute;
+	top: -8px;
+	left: 8px;
+    border-right: 4px solid transparent;
+    border-bottom: 20px solid #FE8A90;
+    transform: rotate(90deg);
+}
 
 @font-face	{
 	font-family: Roboto;
@@ -429,4 +597,12 @@
 @font-face	{
 	font-family: Current;
 	src: url("./fonts/Current-Regular.woff") format("woff");
+}
+@font-face	{
+	font-family: Futura PT;
+	src: url("./fonts/FuturaPT-Medium.woff") format("woff");
+}
+@font-face	{
+	font-family: HWTKonop8Line;
+	src: url("./fonts/HWTKonop8Line.woff") format("woff");
 }
